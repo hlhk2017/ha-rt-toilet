@@ -1,0 +1,24 @@
+{
+  "config": {
+    "flow_title": "{name}",
+    "step": {
+      "bluetooth_confirm": {
+        "title": "添加 R&T 智能马桶",
+        "description": "发现设备“{name}”，是否添加？"
+      },
+      "user": {
+        "title": "选择 R&T 智能马桶",
+        "description": "选择一个已发现的 R&T 智能马桶。",
+        "data": {
+          "address": "设备",
+          "name": "名称"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "该设备已配置。",
+      "not_supported": "该设备不是受支持的 R&T 智能马桶。",
+      "no_devices_found": "未发现 R&T 智能马桶，请确认设备已开机并在蓝牙范围内。"
+    }
+  }
+}

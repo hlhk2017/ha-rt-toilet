@@ -1,0 +1,24 @@
+{
+  "config": {
+    "flow_title": "{name}",
+    "step": {
+      "bluetooth_confirm": {
+        "title": "Add R&T Smart Toilet",
+        "description": "Discovered “{name}”. Add this device?"
+      },
+      "user": {
+        "title": "Select R&T Smart Toilet",
+        "description": "Select a discovered R&T smart toilet.",
+        "data": {
+          "address": "Device",
+          "name": "Name"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Device is already configured.",
+      "not_supported": "This device is not a supported R&T smart toilet.",
+      "no_devices_found": "No R&T smart toilet found. Make sure it is powered on and in range."
+    }
+  }
+}
